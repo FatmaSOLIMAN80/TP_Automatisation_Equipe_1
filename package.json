@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:run": "npx cypress run"
+    "cy:run": "npx percy exec --verbose -- cypress run"
   },
   "keywords": [],
   "author": "",

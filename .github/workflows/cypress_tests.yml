@@ -22,4 +22,7 @@ jobs:
         run: npm install
 
       - name: Run Cypress tests
-        run: npm run cy:run 
+      env:
+        PERCY_TOKEN: web_85f67f4e680df289b315e807d6f68dbdf3a22af6e719bc9698f1f191c712ee18
+        run: |
+         npm run cy:run 
