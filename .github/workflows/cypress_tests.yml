@@ -23,5 +23,5 @@ jobs:
 
       - name: Run Cypress tests
         env:
-          PERCY_TOKEN: web_85f67f4e680df289b315e807d6f68dbdf3a22af6e719bc9698f1f191c712ee18
+          PERCY_TOKEN: web_
         run: npm run cy:run 

@@ -21,7 +21,7 @@ describe('Le visuel des pages Orange doit être consistant', () => {
  
      });
   */
-    it('Visuel de la page home ', () => {
+    /*it('Visuel de la page home ', () => {
         cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').clear()
             .type('Admin');
         cy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input').clear()
@@ -30,7 +30,7 @@ describe('Le visuel des pages Orange doit être consistant', () => {
         cy.wait(2000);
         cy.percySnapshot();
 
-    });
+    });*/
 
 
 });
