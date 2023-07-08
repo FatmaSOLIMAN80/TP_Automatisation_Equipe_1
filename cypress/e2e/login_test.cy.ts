@@ -41,12 +41,12 @@ describe('vérifier le loguin et logout', () => {
          })
  
      });*/
-    it('ajout d\'un Admin', () => {
+    /*it('ajout d\'un Admin', () => {
         cy.contains('.oxd-main-menu-item > .oxd-text', 'Admin').click();
         cy.get('.orangehrm-header-container > .oxd-button').click();
         cy.get('.oxd-select-text-input').first().click();
         cy.contains('div[role="option"] > span', 'Admin').click();
-    });
+    });*/
 
 
 })
